@@ -4,6 +4,7 @@ import Title from './components/Title/Title';
 import CounterScreen from './components/CounterScreen/CounterScreen';
 import PlusButton from './components/PlusButton/PlusButton';
 import MinusButton from './components/MinusButton/MinusButton';
+import Footer from './components/Footer/Footer';
 
 function App() {
     let [valor, setValor] = useState(0);
@@ -26,6 +27,7 @@ function App() {
                 <CounterScreen value={valor}/>
                 <PlusButton act={handlePlusClick}/>
             </main>
+            <Footer />
         </div>
     );
 }

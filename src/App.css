@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: rgb(156, 241, 174);
@@ -46,6 +47,9 @@ input{
     text-align: center;
     font-size: 3rem;
     font-family: 'Share Tech Mono', monospace;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 3px #62a568 inset;
 }
 
 button{
@@ -55,9 +59,28 @@ button{
     border-radius: 8px;
     border: none;
     background-color: teal;
+    box-shadow: 3px 2px rgb(2, 77, 77) inset
+}
+
+button:active{
+    background-image: none;
+    box-shadow: 5px 4px rgb(2, 77, 77) inset
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
+    header{
+        margin: 1rem auto; 
+    }
+
     main{
         justify-content: space-between;
         gap: 1rem;
