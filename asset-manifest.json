@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cac-contador/static/css/main.b3574ee0.css",
+    "main.js": "/cac-contador/static/js/main.1d40eb13.js",
+    "static/js/787.a6e2197e.chunk.js": "/cac-contador/static/js/787.a6e2197e.chunk.js",
+    "index.html": "/cac-contador/index.html",
+    "main.b3574ee0.css.map": "/cac-contador/static/css/main.b3574ee0.css.map",
+    "main.1d40eb13.js.map": "/cac-contador/static/js/main.1d40eb13.js.map",
+    "787.a6e2197e.chunk.js.map": "/cac-contador/static/js/787.a6e2197e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3574ee0.css",
+    "static/js/main.1d40eb13.js"
+  ]
+}
